@@ -1,5 +1,9 @@
 # Learn Redux
 
+- With Redux, all data is kept in a **Store**. Rather than holding our state in a component state we hold our state in a Redux Store. That way we don't have many different components with many different states. We have one giant object that contains all of our data for all of our components.
+
+
+
 ## Running
 
 First `npm install` to grab all the necessary dependencies. 
