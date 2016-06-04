@@ -8,6 +8,8 @@ const Main = React.createClass({
 				<h1>
 					<Link to='/'>Reduxstagram</Link>
 				</h1>
+				{/* This sets PhotoGrid and Single as Main's children in <Router></Router> */}
+				{React.cloneElement(this.props.children, this.props)}
 			</div>
 		)
 	}
