@@ -6,6 +6,10 @@
 
 - Reducers update state. Create reducer for every piece of state.
 
+- Every reducer is fired when actions happen. Every reducer runs every time there is an action, whether something changes the state is up to you.
+
+- In react dev tools you can select a component and run `$r.store.getState()` to investigate it's current state.
+
 ## Running
 
 First `npm install` to grab all the necessary dependencies. 
